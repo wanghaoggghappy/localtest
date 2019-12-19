@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        android.widget.Toast.makeText(this, "main haha", Toast.LENGTH_SHORT).show();
+        android.widget.Toast.makeText(this, "main new branch", Toast.LENGTH_SHORT).show();
         setContentView(R.layout.activity_main);
         testMediaCodec();
     }
